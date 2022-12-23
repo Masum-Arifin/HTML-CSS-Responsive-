@@ -40,8 +40,41 @@
 **/
 
 .label{
+    font-family: var(--font-2);
     font-size: var(--label);
-    font-weight: 600;
+    font-weight: 700;
     letter-spacing: var(--ls);
     color: var(--color-dark-100);
+}
+
+/**
+* ! Style rules for text colors
+**/
+
+.text-white {
+    color: var(--color-white-100);
+  }
+  
+  .text-dark {
+    color: var(--color-dark-100);
+  }
+  
+  .text-green {
+    color: var(--color-green-100);
+  }
+
+  /**
+* ! Style rules for buttons
+**/
+
+.white-btn,
+.dark-btn {
+  color: var(--color-dark-100);
+  background-color: var(--color-white-100);
+  font-family: var(--font-2);
+  font-size: var(--h5);
+  padding: 10px 40px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
 }
